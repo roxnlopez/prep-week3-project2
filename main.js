@@ -19,6 +19,8 @@ BASIC TRACK: 1-9
 ADVANCED TRACK: 10-13
 =======================================================
 */
+document.getElementById("q0").innerHTML = "JS Page Connected Properly!";
+document.getElementById("q0").classList.add("status-good");
 
 // 1. Without using Math.min(), write a function called minimum(),
 //    that takes two numbers from a user,
@@ -28,9 +30,9 @@ ADVANCED TRACK: 10-13
 
 
 
-// 2. Create a new function called minimum3(), 
+// 2. Create a new function called minimum3(),
 //    to find the smallest of three numbers,
-//    input by a user, 
+//    input by a user,
 //    and the smallest displayed within the HTML page.
 
 
@@ -84,8 +86,8 @@ var words = ["window", "table", "cup", "knife", "barstool", "glass", "charger", 
 
 
 // 9. http://games.usvsth3m.com/javascript-under-pressure/
-//    Have fun with these! 
-//    Get as far as you can and record your progress and time. 
+//    Have fun with these!
+//    Get as far as you can and record your progress and time.
 //    We'll try this again in a few weeks!
 
 
@@ -122,10 +124,3 @@ var words = ["window", "table", "cup", "knife", "barstool", "glass", "charger", 
 //     it will prompt the user to enter another guess and tell the user if the guess was
 //     too high or too low. This continues until the correct guess is entered.
 //     When the correct guess is entered the user is given a success message with the correct number.
-
-
-
-
-
-
-
