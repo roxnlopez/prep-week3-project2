@@ -45,12 +45,12 @@ documnet.getElementById("q1").innerHTML = "minimum";
 //    input by a user,
 //    and the smallest displayed within the HTML page.
 function minimum3(num1, num2, num3) {
-  if (num1 >= num2 && num1 >= num3) {
-    return num1 + " is largest.";
-  } else if (num2 >= num1 && num2 >= num3) {
-    return num2 + " is largest.";
-  } else if (num3 >= num1 && num3 >= num2) {
-    return num3 + " is largest";
+  if (num1 <= num2 && num1 <= num3) {
+    return num1 + " is smallest.";
+  } else if (num2 <= num1 && num2 <= num3) {
+    return num2 + " is smallest.";
+  } else if (num3 <= num1 && num3 <= num2) {
+    return num3 + " is smallest";
   } else {
     return "I'm not sure";
   }
@@ -61,6 +61,8 @@ console.log(minimum3(5,2,1));
 console.log(minimum3(4,6,2));
 console.log(minimum3(4,4,2));
 console.log(minimum3("horse", 3, null));
+
+document.getElementById('q2').innerHTML = "minimum3";
 
 
 
