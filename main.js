@@ -37,7 +37,7 @@ console.log(minimum(3,4));
 console.log(minimum(5,2));
 console.log(minimum(4,4));
 
-
+documnet.getElementById("q1").innerHTML = "minimum";
 
 
 // 2. Create a new function called minimum3(),
