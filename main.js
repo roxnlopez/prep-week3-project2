@@ -33,11 +33,9 @@ function minimum(num1, num2) {
   }
 };
 
-console.log(minimum(3,4));
 console.log(minimum(5,2));
-console.log(minimum(4,4));
 
-documnet.getElementById("q1").innerHTML = "minimum()";
+document.getElementById("q1").innerHTML = "minimum()";
 
 
 // 2. Create a new function called minimum3(),
@@ -58,9 +56,6 @@ function minimum3(num1, num2, num3) {
 
 console.log(minimum3(3,4,5));
 console.log(minimum3(5,2,1));
-console.log(minimum3(4,6,2));
-console.log(minimum3(4,4,2));
-console.log(minimum3("horse", 3, null));
 
 document.getElementById('q2').innerHTML = "minimum3";
 
@@ -76,10 +71,10 @@ function sum(numArray) {
   return total + " is the total";
 };
 
-console.log(sum([2,4,5]));
-console.log(sum([43,66,99,22]));
+console.log(sum([3,5,7]));
+console.log(sum([10,44,2,80]));
 
-
+document.getElementById('q3').innerHTML = "sum";
 
 
 // 4. Declare a function called multiply() that takes an array of numbers and multiplies them together.
@@ -92,10 +87,8 @@ function multiply(numArray) {
   return total + " is the total.";
 };
 
-console.log(multiply([1,2,3,4]));
-console.log(multiply([43,66,99,22]));
-
-
+console.log(multiply([6,4]));
+console.log(multiply([2,6,3]));
 
 
 
@@ -183,7 +176,7 @@ function countBs(string) {
   return count;
 }
 
-console.log(countBs("BBBBBBabbling babies are usually named Bonnie"));
+console.log(countBs("BBBabbling BBabies are usually named BonnBBBonn"));
 console.log(countBs("Bob Saget is a big weirdo."));
 
 
