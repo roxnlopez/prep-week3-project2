@@ -26,10 +26,10 @@ document.getElementById("q0").classList.add("status-good");
 //    that takes two numbers from a user,
 //    and outputs the smaller number into the HTML page.
 function minimum(num1, num2) {
-  if(num1 > num2) {
-    return num1 + " is larger than " + num2;
-  } else if(num2 > num1) {
-    return num2 + " is larger than " + num1;
+  if(num1 < num2) {
+    return num1 + " is smaller than " + num2;
+  } else if(num2 < num1) {
+    return num2 + " is smaller than " + num1;
   }
 };
 
