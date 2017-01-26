@@ -30,8 +30,6 @@ function minimum(num1, num2) {
     return num1 + " is larger than " + num2;
   } else if(num2 > num1) {
     return num2 + " is larger than " + num1;
-  } else {
-    return "Jeez - those are equal or something. Don't get tricky."
   }
 };
 
@@ -192,7 +190,6 @@ console.log(countBs("Bob Saget is a big weirdo."));
 //    Have fun with these!
 //    Get as far as you can and record your progress and time.
 //    We'll try this again in a few weeks!
-ß
 
 
 
